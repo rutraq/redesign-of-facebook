@@ -1,0 +1,51 @@
+header {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #1643D9;
+  min-height: 50px;
+}
+header .status {
+  padding: 15px 0 0 45px;
+}
+header .letter {
+  font-size: 18pt;
+  padding: 10px 0 0 350px;
+}
+header .form {
+  width: 250px;
+  padding: 15px 0 0 15px;
+}
+header .inputSearch {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  padding-left: 8px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4) inset, 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+header .home {
+  padding: 15px 0 0 800px;
+}
+header .border {
+  border-right: 1px solid #7C7C7E;
+}
+header .photo {
+  position: absolute;
+  top: 10px;
+  padding: 0 0 0 870px;
+  border: none;
+  border-radius: 10px;
+}
+.content {
+  padding: 0 150px;
+  background-color: #B7C7D9;
+}
+body {
+  background-color: #B7C7D9;
+  min-height: 100%;
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+}
