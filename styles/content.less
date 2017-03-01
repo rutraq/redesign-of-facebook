@@ -1,4 +1,62 @@
 .content {
-  padding: 0 150px;
+  margin: 0;
+  padding: 25px 150px 0 150px;
   background-color: @articleColor;
+
+  .rect {
+    position: absolute;
+  }
+
+  nav {
+    margin-bottom: 25px;
+  }
+
+  .navigation {
+    position: relative;
+    left: 125px;
+    bottom: 33px;
+    max-width: @width-of-post;
+
+    img {
+      padding-right: 15px;
+    }
+
+    span {
+      padding: 20px 50px 20px 0;
+      border-right: 1px solid @borderColor;
+
+      &:last-child {
+        border-right: none;
+      }
+    }
+  }
+  section {
+
+    figure {
+      margin: 0 0 0 5px;
+
+      .minutes {
+        color: @minutesAgoTextColor;
+        font-size: @minutesAgoTextSize;
+        margin-top: 3px;
+        margin-bottom: 0;
+      }
+
+      .like {
+        margin-top: 3px;
+        margin-bottom: 0;
+        margin-left: 15px;
+      }
+
+      figcaption {
+        font-size: @figureTextSize;
+      }
+    }
+
+    svg {
+      position: absolute;
+      left: 220px;
+      top: 190px;
+    }
+  }
 }

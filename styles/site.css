@@ -40,8 +40,53 @@ header .photo {
   border-radius: 10px;
 }
 .content {
-  padding: 0 150px;
+  margin: 0;
+  padding: 25px 150px 0 150px;
   background-color: #B7C7D9;
+}
+.content .rect {
+  position: absolute;
+}
+.content nav {
+  margin-bottom: 25px;
+}
+.content .navigation {
+  position: relative;
+  left: 125px;
+  bottom: 33px;
+  max-width: 450px;
+}
+.content .navigation img {
+  padding-right: 15px;
+}
+.content .navigation span {
+  padding: 20px 50px 20px 0;
+  border-right: 1px solid #7C7C7E;
+}
+.content .navigation span:last-child {
+  border-right: none;
+}
+.content section figure {
+  margin: 0 0 0 5px;
+}
+.content section figure .minutes {
+  color: grey;
+  font-size: 7pt;
+  margin-top: 3px;
+  margin-bottom: 0;
+}
+.content section figure .like {
+  margin-top: 3px;
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+.content section figure figcaption {
+  font-size: 8pt;
+}
+.content section svg {
+  position: absolute;
+  left: 220px;
+  top: 190px;
 }
 body {
   background-color: #B7C7D9;
