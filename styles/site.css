@@ -66,27 +66,241 @@ header .photo {
 .content .navigation span:last-child {
   border-right: none;
 }
-.content section figure {
+.content #post1 figure {
   margin: 0 0 0 5px;
 }
-.content section figure .minutes {
+.content #post1 figure .minutes {
   color: grey;
   font-size: 7pt;
   margin-top: 3px;
   margin-bottom: 0;
 }
-.content section figure .like {
+.content #post1 figure .like {
   margin-top: 3px;
   margin-bottom: 0;
   margin-left: 15px;
 }
-.content section figure figcaption {
+.content #post1 figure figcaption {
   font-size: 8pt;
 }
-.content section svg {
+.content #post1 svg {
   position: absolute;
   left: 220px;
-  top: 190px;
+  top: 180px;
+}
+.content #post1 .post {
+  font-size: 10pt;
+  max-width: 490px;
+  position: absolute;
+  left: 275px;
+  top: 188px;
+}
+.content #post1 .post > img {
+  padding: 10px 15px;
+}
+.content #post1 .post .text {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #7C7C7E;
+}
+.content #post1 .post .buttons > img {
+  padding: 4px 10px;
+  position: relative;
+  left: 345px;
+  top: -58px;
+  border-right: 1px solid #7C7C7E;
+}
+.content #post1 .post .buttons > img:first-child {
+  padding-left: 25px;
+}
+.content #post1 .post .buttons > img:last-child {
+  border-right: none;
+}
+.content #post1 h4 {
+  margin: 10px 0 3px 0;
+}
+.content #post1 .form {
+  position: relative;
+  left: 60px;
+  top: -38px;
+  width: 250px;
+}
+.content #post1 .inputSearch {
+  width: 100%;
+  height: 100%;
+  border: 0.5px solid #7C7C7E;
+  outline: none;
+  border-radius: 8px;
+  padding-left: 8px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4) inset, 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+.content #post2 figure {
+  position: relative;
+  top: 100px;
+  margin: 0 0 0 5px;
+}
+.content #post2 figure .minutes {
+  color: grey;
+  font-size: 7pt;
+  margin-top: 3px;
+  margin-bottom: 0;
+}
+.content #post2 figure .like {
+  margin-top: 3px;
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+.content #post2 figure figcaption {
+  position: relative;
+  left: -7px;
+  font-size: 8pt;
+}
+.content #post2 figure figcaption .like,
+.content #post2 figure figcaption .minutes {
+  position: relative;
+  left: 7px;
+}
+.content #post2 svg {
+  position: absolute;
+  left: 220px;
+  top: 405px;
+}
+.content #post2 .post {
+  font-size: 10pt;
+  max-width: 490px;
+  position: absolute;
+  left: 275px;
+  top: 413px;
+}
+.content #post2 .post > img {
+  padding: 25px 15px;
+}
+.content #post2 .post .text {
+  position: relative;
+  top: 12px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #7C7C7E;
+}
+.content #post2 .post .text img {
+  padding: 0 15px;
+  border-right: 1px solid #7C7C7E;
+}
+.content #post2 .post .text img:first-child {
+  padding-left: 0;
+}
+.content #post2 .post .text img:last-child {
+  border-right: none;
+}
+.content #post2 .post .buttons > img {
+  padding: 4px 10px;
+  position: relative;
+  left: 345px;
+  top: -70px;
+  border-right: 1px solid #7C7C7E;
+}
+.content #post2 .post .buttons > img:first-child {
+  padding-left: 25px;
+}
+.content #post2 .post .buttons > img:last-child {
+  border-right: none;
+}
+.content #post2 .form {
+  position: relative;
+  left: 60px;
+  top: -50px;
+  width: 250px;
+}
+.content #post2 .inputSearch {
+  width: 100%;
+  height: 100%;
+  border: 0.5px solid #7C7C7E;
+  outline: none;
+  border-radius: 8px;
+  padding-left: 8px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4) inset, 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+.content #post3 figure {
+  position: relative;
+  top: 220px;
+  margin: 0 0 0 5px;
+}
+.content #post3 figure .minutes {
+  color: grey;
+  font-size: 7pt;
+  margin-top: 3px;
+  margin-bottom: 0;
+}
+.content #post3 figure .like {
+  margin-top: 3px;
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+.content #post3 figure figcaption {
+  position: relative;
+  left: -5px;
+  font-size: 8pt;
+}
+.content #post3 figure figcaption .like,
+.content #post3 figure figcaption .minutes {
+  position: relative;
+  left: 10px;
+}
+.content #post3 svg {
+  position: absolute;
+  left: 220px;
+  top: 630px;
+}
+.content #post3 .post {
+  font-size: 10pt;
+  max-width: 490px;
+  position: absolute;
+  left: 275px;
+  top: 638px;
+}
+.content #post3 .post > img {
+  padding: 25px 15px;
+}
+.content #post3 .post .text {
+  position: relative;
+  top: 12px;
+  max-height: 110px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #7C7C7E;
+}
+.content #post3 .post .text div {
+  width: 270px;
+}
+.content #post3 .post .text video {
+  position: relative;
+  left: 290px;
+  top: -100px;
+}
+.content #post3 .post .buttons > img {
+  padding: 4px 10px;
+  position: relative;
+  left: 345px;
+  top: -70px;
+  border-right: 1px solid #7C7C7E;
+}
+.content #post3 .post .buttons > img:first-child {
+  padding-left: 25px;
+}
+.content #post3 .post .buttons > img:last-child {
+  border-right: none;
+}
+.content #post3 .form {
+  position: relative;
+  left: 60px;
+  top: -50px;
+  width: 250px;
+}
+.content #post3 .inputSearch {
+  width: 100%;
+  height: 100%;
+  border: 0.5px solid #7C7C7E;
+  outline: none;
+  border-radius: 8px;
+  padding-left: 8px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4) inset, 0 1px 0 rgba(255, 255, 255, 0.2);
 }
 body {
   background-color: #B7C7D9;
